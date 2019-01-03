@@ -42,6 +42,9 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
+  for number_of_times in this 
+    execute some code
+end
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
   
